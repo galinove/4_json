@@ -1,9 +1,9 @@
-# Prettify JSON
+# Сделать JSON красивым
 
 Скрипт используется для красивового вывода в коносли файлов .json
 Скрипт в файле pprint_json.py
 
-# Quickstart
+# Быстрый старт
 
 Для работы со скриптом следует использовать pprint_json_test.py
 
@@ -35,6 +35,6 @@ pprint_json.pretty_print_json(json_file)
 ......
 ]
 ```
-# Project Goals
+# Цели проекта
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Код написан с образовательной целью. Курс подготовки для веб-разарботчиков - [DEVMAN.org](https://devman.org)
