@@ -3,14 +3,14 @@ import json
 
 def load_data(filepath):
 
-    f = open(filepath, encoding="utf8")
-    d = json.loads(f.read())
-    f.close()
-    return d
+    json_file_utf8 = open(filepath, encoding="utf8")
+    json_file_utf8_content = json.loads(json_file_utf8.read())
+    json_file_utf8.close()
+    return json_file_utf8_content
 
 
-def pretty_print_json(data):
-    print(json.dumps(data, indent=4, ensure_ascii=False, sort_keys=True))
+def pretty_print_json(json_file_utf8_content):
+    print(json.dumps(json_file_utf8_content, indent=4, ensure_ascii=False, sort_keys=True))
 
 
 if __name__ == '__main__':
