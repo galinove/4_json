@@ -1,22 +1,18 @@
 # Сделать JSON красивым
 
 Скрипт используется для красивового вывода в коносли файлов .json
-Скрипт в файле pprint_json.py
 
 # Быстрый старт
-
-Для работы со скриптом следует использовать pprint_json_test.py
 
 windows 7 64b , Python 3.5:
 
 ```#!bash
 
-import pprint_json
+$ pprint_json.py filepath
 
-json_file = pprint_json.load_data(%path to file%)
-pprint_json.pretty_print_json(json_file)
 ```
 ```
+Пример вывода данных в консоли:
 [
     {
         "Cells": {
