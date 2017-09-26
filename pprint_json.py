@@ -19,5 +19,5 @@ if __name__ == '__main__':
         filepath = (input('Введите путь к файлу .json: ').replace("'", "")).replace("\|", "/")
     try:
         pretty_print_json(load_data(filepath))
-    except:
+    except FileNotFoundError:
         print('File not found or does not exist')
